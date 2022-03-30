@@ -1,0 +1,23 @@
+{
+  "name": "restapi_express",
+  "version": "1.0.0",
+  "description": "This application provide us with the data for a given uuid",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "csv-parse": "^5.0.4",
+    "csvtojson": "^2.0.10",
+    "express": "^4.17.3",
+    "node-csv": "^0.1.2",
+    "pandas-js": "^0.2.4",
+    "uuid": "^8.3.2"
+  },
+  "type": "module",
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
